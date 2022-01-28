@@ -20,3 +20,21 @@ console.log(isPowerofTwo(5)); // false
 console.log(isPowerofTwo(20));
 console.log(isPowerofTwo(16));
 console.log(isPowerofTwo(13));
+
+// for of loop
+const names = ["michael", "raphael", "gabriel"];
+
+for(const angels of names) {
+    console.log(angels);
+}
+
+// for in loop
+const symbols = {
+    yt: "Youtube",
+    fb: "Facebook",
+    nf: "Netflix"
+};
+
+for(const n in symbols){
+    console.log(n);
+}
