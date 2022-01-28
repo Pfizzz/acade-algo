@@ -23,9 +23,9 @@ console.log(isPowerofTwo(13));
 
 // for of loop
 const names = ["michael", "raphael", "gabriel"];
-
-for(const angels of names) {
-    console.log(angels);
+for (const n of names){
+    
+    console.log(n);
 }
 
 // for in loop
@@ -35,6 +35,23 @@ const symbols = {
     nf: "Netflix"
 };
 
+// gives us the keys
 for(const n in symbols){
     console.log(n);
 }
+
+// gives us the values
+for(const n in symbols){
+    console.log(symbols[n]);
+}
+
+for(const n in symbols){
+    console.log(`Key is ${n}, Value is ${symbols[n]}`)
+}
+
+
+// noodling around
+const names2 = ['me', 'myself', 'irene'];
+
+const upperName = names2.map(names2 => names2.toUpperCase());
+console.log(upperName);
