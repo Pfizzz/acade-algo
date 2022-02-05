@@ -17,5 +17,5 @@ function isPrime(number) {
 // average case: O(n) (we have to assume the worst case)
 // worst case: number = 27,277 => O(n)
 
-console.log(isPrime(5));
+console.log(isPrime(2));
 console.log(isPrime(9));
